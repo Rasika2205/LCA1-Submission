@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <title>Artists Hub Form</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+<body style="margin: 0; font-family: 'Poppins', sans-serif;">
+    <header style="text-align: center; padding: 0.2rem; background-color: rgb(35, 34, 36);">
+        <h1 style="color: azure; margin: 0;">Artist's Hub</h1>
+        <p style="color: azure; margin: 0; line-height: 1;">Discover, Learn, and Showcase Art</p>
+        <meta name="viewport" content="width=device-width initial-scale=1">
+    </header>
+    <div style="position: relative; height: calc(100vh - 80px);">
+        <img src="image bg.jpg" alt="Background Image" style="width: 100%; height: 100%; object-fit: cover; filter: blur(8px); opacity: 0.7;">
+        <div style="position: absolute; top: 15%; left: 50%; transform: translateX(-50%); width: 80%; max-width: 400px; background-color: rgba(255, 255, 255, 0.8); padding: 20px; border-radius: 10px; box-sizing: border-box;">
+            <form style="text-align: center;">
+                <div style="margin-bottom: 15px;">
+                    <label for="fname" style="display: block; text-align: left;">First Name</label>
+                    <input type="text" id="fname" name="fname" placeholder="type here" style="margin-top: 5px; border: 1px solid #ffffff; padding: 0.5rem; width: calc(100% - 1rem); border-radius: 5px;">
+                </div>
+                <div style="margin-bottom: 15px;">
+                    <label for="lname" style="display: block; text-align: left;">Last Name</label>
+                    <input type="text" id="lname" name="lname" placeholder="type here" style="margin-top: 5px; border: 1px solid #ffffff; padding: 0.5rem; width: calc(100% - 1rem); border-radius: 5px;">
+                </div>
+                <div style="margin-bottom: 15px;">
+                    <label for="pass" style="display: block; text-align: left;">Password</label>
+                    <input type="password" id="pass" name="pass" maxlength="12" style="margin-top: 5px; border: 1px solid #ffffff; padding: 0.5rem; width: calc(100% - 1rem); border-radius: 5px;">
+                </div>
+                <div style="margin-bottom: 15px;">
+                    <label for="email" style="display: block; text-align: left;">Email</label>
+                    <input type="email" id="email" name="email" placeholder="smtng@gmail.com" style="margin-top: 5px; border: 1px solid #ffffff; padding: 0.5rem; width: calc(100% - 1rem); border-radius: 5px;">
+                </div>
+                <div style="margin-bottom: 15px;">
+                    <label for="phone" style="display: block; text-align: left;">Phone</label>
+                    <input type="tel" id="phone" name="phone" style="margin-top: 5px; border: 1px solid #ffffff; padding: 0.5rem; width: calc(100% - 1rem); border-radius: 5px;">
+                </div>
+            </form>
+            <div style="margin-top: 10px; text-align: center;">
+                <input type="reset" value="Reset" style="display: block; padding: 10px 15px; width: 100%; max-width: 200px; margin: 10px auto; background-color: grey; color: white; border: none; border-radius: 5px; cursor: pointer; font-size: 16px;">
+                <a href="Artists hub homescreen.html" style="display: block; padding: 10px 15px; width: 48%; max-width: 200px; margin: 10px auto; background-color: rgb(35, 34, 36); color: white; text-decoration: none; border-radius: 5px; text-align: center; cursor: pointer; font-size: 16px;">Submit</a>
+            </div>
+        </div>
+    </div>
+    <footer style="text-align: center; padding: 10px 0; background-color: rgb(35, 34, 36); color: white; position: relative; bottom: 0;">
+        <p style="margin: 0;">© 2025 Artist's Hub. All rights reserved.</p>
+    </footer>
+</body>
+</html>
